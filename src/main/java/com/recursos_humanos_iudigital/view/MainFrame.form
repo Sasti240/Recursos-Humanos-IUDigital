@@ -214,11 +214,13 @@
                                       <Component id="lblBirthdate" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="cbxSex" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtAddress" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="dchBirthdate" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="cbxSex" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
                               </Group>
                               <Component id="btnCreate" min="-2" max="-2" attributes="0"/>
@@ -536,10 +538,8 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="lblSexEdit" min="-2" max="-2" attributes="0"/>
                               <Component id="lblAddressEdit" min="-2" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="lblPhoneEdit" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="lblBirthdateEdit" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="lblPhoneEdit" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblBirthdateEdit" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">

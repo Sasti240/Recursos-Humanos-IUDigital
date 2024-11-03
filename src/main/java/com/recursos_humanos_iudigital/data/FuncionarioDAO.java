@@ -50,7 +50,6 @@ public class FuncionarioDAO {
                 funcionario.setTelefono(resultSet.getString("telefono"));
                 funcionario.setFechaNacimiento(resultSet.getDate("fecha_nacimiento"));
 
-                // Agregar el funcionario a la lista
                 Funcionarios.add(funcionario);
             }
 
